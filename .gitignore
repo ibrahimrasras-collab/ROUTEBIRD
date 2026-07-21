@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js build artifacts
+.next/
+out/
+build/
+dist/
+
+# Env files
+.env*.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Vercel / Turbo
+.vercel
+.turbo
+*.tsbuildinfo
+
+# Next.js auto-generated
+next-env.d.ts
+
+# SECURITY: never commit the GitHub token file
+ROUTEBIRD-token-gh
+
+# Binary / non-source workspace artifacts
+Routebird.zip
+Routebird Pitch Deck.pptx
+Routebird Pitch Deck (1).pptx
+Routebird GTM Plan.docx

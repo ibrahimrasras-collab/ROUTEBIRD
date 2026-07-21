@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Routebird — Visa-aware flights for Australia's students &amp; migrants</title>
+  <meta name="description" content="Routebird finds the cheapest visa-eligible flights for Australia's international students and migrants on the India, China &amp; SEA corridors. Transparent all-in pricing, bilingual support, local payments, student discounts, bundled insurance &amp; eSIM." />
+  <meta name="theme-color" content="#0c5a66" />
+  <meta property="og:title" content="Routebird — Visa-aware flights for Australia's students &amp; migrants" />
+  <meta property="og:description" content="Cheapest visa-eligible fares for the India · China · SEA corridors. Built in Brisbane for Australia's international students &amp; recent migrants." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./base.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Favicon (inline SVG data URI) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none' stroke='%230c5a66' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 22c5-1 9-4 12-9 1.5-2.5 3-4 5-4'/%3E%3Cpath d='M16 9l5-3-1.5 5'/%3E%3Ccircle cx='22' cy='6' r='1' fill='%230c5a66' stroke='none'/%3E%3Cpath d='M4 22h24' opacity='0.3' stroke-dasharray='2 3'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a href="#main" class="sr-only">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand" aria-label="Routebird home">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3.5 23c6-1.2 10.5-4.5 14-10 1.4-2.2 2.8-3.6 4.6-3.6" />
+          <path d="M17 9.4 22 5.5 20.4 11" />
+          <circle cx="22" cy="5.8" r="1.2" fill="currentColor" stroke="none" />
+          <path d="M3.5 23l3-1.6M9 23l3-1.6M14.5 23l3-1.6" opacity="0.45" />
+        </svg>
+        Routebird
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode" type="button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+        <a href="#waitlist" class="btn btn--primary">Join the waitlist</a>
+        <button class="nav__toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false" type="button">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav__menu" id="navMenu" data-nav-menu>
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#waitlist">Join the waitlist</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container container--wide hero__grid">
+        <div class="hero__copy">
+          <span class="hero__pill"><span class="dot"></span> Now in early access · Brisbane-built</span>
+          <h1 class="hero__title">Visa-aware flights for Australia's <em>students &amp; migrants</em></h1>
+          <p class="hero__sub">Routebird surfaces the cheapest fares your passport can actually fly on — across the India, China &amp; South-East Asia corridors. No transit-visa surprises. No hidden fees.</p>
+
+          <div class="hero__trust">
+            <span class="pip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+              Transparent all-in pricing
+            </span>
+            <span class="pip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+              WeChat Pay · Alipay · UPI
+            </span>
+            <span class="pip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>
+              Built for the India · China · SEA corridors
+            </span>
+          </div>
+
+          <form class="waitlist" id="waitlist-hero" novalidate>
+            <div class="waitlist__field" data-field>
+              <input type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@email.com" aria-label="Email address" required />
+              <button type="submit" class="waitlist__submit">
+                Join the waitlist
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </button>
+            </div>
+            <p class="waitlist__msg" data-msg aria-live="polite"></p>
+          </form>
+        </div>
+
+        <!-- Hero visual: visa-aware search mockup -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__badge hero__badge--1">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-4z" /><path d="m9 12 2 2 4-4" /></svg>
+            Visa-eligible
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+            All-in price
+          </div>
+
+          <div class="searchcard">
+            <div class="searchcard__top">
+              <div class="searchcard__tabs">
+                <span class="searchcard__tab active">Flights</span>
+                <span class="searchcard__tab">Hotels</span>
+                <span class="searchcard__tab">Bundles</span>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="color:var(--color-text-faint)"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" opacity="0.4" /></svg>
+            </div>
+
+            <div class="searchcard__passport">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16c0 1 .5 2 2 2h14V2H6C4.5 2 4 3 4 4z" /><path d="M4 18h14" /></svg>
+              <span class="lab">Passport</span>
+              <span class="flag">🇮🇳 India</span>
+            </div>
+
+            <div class="searchcard__row">
+              <div class="searchcard__field">
+                <label>From</label>
+                <div class="val">Melbourne MEL</div>
+              </div>
+              <div class="searchcard__field">
+                <label>To</label>
+                <div class="val">Delhi DEL</div>
+              </div>
+            </div>
+            <div class="searchcard__row">
+              <div class="searchcard__field">
+                <label>Depart</label>
+                <div class="val">12 Dec</div>
+              </div>
+              <div class="searchcard__field">
+                <label>Return</label>
+                <div class="val">28 Jan</div>
+              </div>
+            </div>
+
+            <button class="searchcard__cta" type="button">Search visa-eligible fares</button>
+
+            <div class="fare">
+              <div class="fare__head"><span>Visa-eligible · cheapest first</span><span>All-in</span></div>
+
+              <div class="fare__item">
+                <div class="fare__airline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5a2.12 2.12 0 0 0-3-3L13 8 4.8 6.2a1 1 0 0 0-.6 1.9l6.3 2.1-2 3-2.5-.5a1 1 0 0 0-.9 1.7l2 1.4 1.4 2a1 1 0 0 0 1.7-.9l-.5-2.5 3-2 2.1 6.3a1 1 0 0 0 1.9-.6z" /></svg>
+                </div>
+                <div class="fare__info">
+                  <div class="fare__route">MEL → KUL → DEL</div>
+                  <div class="fare__meta"><span>AirAsia · 15h 20m</span><span class="fare__visa">Visa-OK</span></div>
+                </div>
+                <div class="fare__price">A$842</div>
+              </div>
+
+              <div class="fare__item">
+                <div class="fare__airline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5a2.12 2.12 0 0 0-3-3L13 8 4.8 6.2a1 1 0 0 0-.6 1.9l6.3 2.1-2 3-2.5-.5a1 1 0 0 0-.9 1.7l2 1.4 1.4 2a1 1 0 0 0 1.7-.9l-.5-2.5 3-2 2.1 6.3a1 1 0 0 0 1.9-.6z" /></svg>
+                </div>
+                <div class="fare__info">
+                  <div class="fare__route">MEL → SIN → DEL</div>
+                  <div class="fare__meta"><span>Scoot · 14h 05m</span><span class="fare__visa">Visa-OK</span></div>
+                </div>
+                <div class="fare__price">A$879</div>
+              </div>
+
+              <div class="fare__item fare__item--blocked">
+                <div class="fare__airline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5a2.12 2.12 0 0 0-3-3L13 8 4.8 6.2a1 1 0 0 0-.6 1.9l6.3 2.1-2 3-2.5-.5a1 1 0 0 0-.9 1.7l2 1.4 1.4 2a1 1 0 0 0 1.7-.9l-.5-2.5 3-2 2.1 6.3a1 1 0 0 0 1.9-.6z" /></svg>
+                </div>
+                <div class="fare__info">
+                  <div class="fare__route">MEL → BKK → DEL</div>
+                  <div class="fare__meta"><span>Thai Lion · A$798</span><span class="fare__visa fare__visa--transit">Transit visa</span></div>
+                </div>
+                <div class="fare__price" style="text-decoration:line-through;opacity:0.7">Hidden</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROBLEM / WHY ============ -->
+    <section class="section problem" id="problem">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The problem</span>
+          <h2 class="section-title">Booking a flight home shouldn't feel like a gamble</h2>
+          <p class="section-intro">Today's OTAs were built for leisure tourists with Western passports. For Australia's international students and recent migrants, the same booking flow hides costs, risks, and dead ends.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-4z" /><path d="M12 8v4" /><path d="M12 16h.01" /></svg>
+            </div>
+            <div class="card__index">01</div>
+            <h3 class="card__title">Visa anxiety</h3>
+            <p class="card__body">A cheaper fare through a transit city can mean a visa you don't have. No major OTA warns you before you book — you find out at the gate.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22" /><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg>
+            </div>
+            <div class="card__index">02</div>
+            <h3 class="card__title">Opaque fees</h3>
+            <p class="card__body">The headline price balloons at checkout with booking fees, card surcharges, and FX margin. You commit before you ever see the real total.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><path d="m3.3 7 8.7 5 8.7-5" /><path d="M12 22V12" /></svg>
+            </div>
+            <div class="card__index">03</div>
+            <h3 class="card__title">Thin Asia inventory</h3>
+            <p class="card__body">Incumbents optimise for AU domestic and Europe. Asia-Pacific carriers, transit combinations, and home-city routes are an afterthought.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z" /><path d="M6 12v5c3 3 9 3 12 0v-5" /></svg>
+            </div>
+            <div class="card__index">04</div>
+            <h3 class="card__title">No student deals</h3>
+            <p class="card__body">No .edu verification, no pay-later, no understanding of term-break seasonality. Students fly 1–3× a year and get treated like everyone else.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What Routebird does</span>
+          <h2 class="section-title">A booking flow that actually knows your passport</h2>
+          <p class="section-intro">Every feature is built for the Australia → Asia corridor — not retrofitted from a Western leisure template.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature reveal">
+            <span class="feature__num">01</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 24c6-1.2 10.5-4.5 14-10 1.4-2.2 2.8-3.6 4.6-3.6" />
+              <path d="M18 10.4 23 6.5 21.4 12" />
+              <circle cx="23" cy="6.8" r="1.2" fill="currentColor" stroke="none" />
+              <path d="M4 24h24" opacity="0.3" stroke-dasharray="2 3" />
+              <path d="M16 24v-4M10 24v-2M22 24v-3" opacity="0.5" />
+            </svg>
+            <h3 class="feature__title">Visa-aware search</h3>
+            <p class="feature__body">Enter your passport once. Every fare is screened for transit-visa risk and destination eligibility before it's shown — so the cheapest option is always one you can actually fly.</p>
+            <span class="feature__tag">The core differentiator</span>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__num">02</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="16" cy="16" r="11" />
+              <path d="M16 9v7l4.5 2.5" />
+              <path d="M5 16h2M25 16h2M16 5v2M16 25v2" opacity="0.6" />
+            </svg>
+            <h3 class="feature__title">Transparent all-in pricing</h3>
+            <p class="feature__body">The price you see is the price you pay — taxes, fees, and card surcharge included, up front. ACL-aligned, no checkout-stage surprises, no FX margin hiding in the conversion.</p>
+            <span class="feature__tag">No surprises at checkout</span>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__num">03</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 11h22M5 11V8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v3" />
+              <path d="M5 11v13a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V11" />
+              <path d="M11 16h4M11 20h6" opacity="0.7" />
+              <circle cx="22" cy="18" r="2.5" opacity="0.7" />
+            </svg>
+            <h3 class="feature__title">Bilingual + local payments</h3>
+            <p class="feature__body">Interface in English, Hindi, Mandarin and Vietnamese. Pay your way — WeChat Pay, Alipay, UPI, and Australian cards. Built for how these communities actually transact.</p>
+            <span class="feature__tag">English · हिन्दी · 中文 · Tiếng Việt</span>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__num">04</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              <path d="M27 14v6M22 17h8M24 17v3" opacity="0.7" />
+            </svg>
+            <h3 class="feature__title">Student discounts + pay-later</h3>
+            <p class="feature__body">Verify with a .edu email or student ID for member fares, baggage credits, and interest-free pay-later on term-break trips. We optimise for peak visiting-family seasonality.</p>
+            <span class="feature__tag">.edu verified</span>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature__num">05</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6l-8-4z" />
+              <path d="m9 12 2 2 4-4" />
+              <rect x="20" y="18" width="9" height="11" rx="2" opacity="0.6" />
+              <path d="M22 21h5M24.5 25h.01" opacity="0.6" />
+            </svg>
+            <h3 class="feature__title">Bundled insurance &amp; eSIM</h3>
+            <p class="feature__body">Add travel insurance and a destination eSIM in the same checkout — no third-party detours. One itinerary, one support contact, one price.</p>
+            <span class="feature__tag">All-in-one trip</span>
+          </article>
+
+          <article class="feature reveal" style="background:linear-gradient(180deg,var(--color-primary-soft),var(--color-surface) 55%);border-color:color-mix(in oklab,var(--color-primary) 30%,var(--color-divider))">
+            <span class="feature__num">+1</span>
+            <svg class="feature__icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="4" />
+              <circle cx="21" cy="21" r="4" />
+              <path d="M14 14l4 4" opacity="0.6" />
+              <path d="M5 5h2M25 27h2" opacity="0.4" />
+            </svg>
+            <h3 class="feature__title">Community-native deals</h3>
+            <p class="feature__body">Bilingual deal-alert newsletter plus WhatsApp / WeChat / Discord communities surface fares the moment they drop — the low-CAC model that built Beat That Flight, rebuilt for these corridors.</p>
+            <span class="feature__tag">Fares first, by community</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section" id="how" style="background:var(--color-surface-offset);border-block:1px solid var(--color-divider)">
+      <div class="container">
+        <div class="section-head text-center center" style="flex-direction:column;align-items:center">
+          <span class="eyebrow">How it works</span>
+          <h2 class="section-title">Three steps to a fare you can actually use</h2>
+          <p class="section-intro">From search to boarding in minutes — no spreadsheets, no embassy guesswork, no checkout surprises.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step__num">01</div>
+            <h3 class="step__title">Search with your passport</h3>
+            <p class="step__body">Tell us where you're flying and which passport you hold. We pull live fares across the AU → India / China / SEA corridors from our airline supply.</p>
+            <svg class="step__arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </article>
+
+          <article class="step reveal">
+            <div class="step__num">02</div>
+            <h3 class="step__title">See visa-eligible cheapest fares</h3>
+            <p class="step__body">Every result is screened for transit-visa risk and destination eligibility. Each fare carries an all-in price — no fee reveal at the payment step.</p>
+            <svg class="step__arrow" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </article>
+
+          <article class="step reveal">
+            <div class="step__num">03</div>
+            <h3 class="step__title">Book + add insurance &amp; eSIM</h3>
+            <p class="step__body">Confirm with WeChat Pay, Alipay, UPI or your card. Bundle travel insurance and a destination eSIM in the same checkout — one itinerary, one support line.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARKET / STATS ============ -->
+    <section class="section stats" id="market">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why now</span>
+          <h2 class="section-title">A market built on recurring, price-sensitive, visa-aware flyers</h2>
+          <p class="section-intro">Australia's visitor economy is at record scale, with education visitors and Asia outbound growth concentrated exactly where Routebird is focused.</p>
+        </div>
+
+        <div class="stat-grid">
+          <div class="stat reveal">
+            <div class="stat__value">A$191.6bn</div>
+            <p class="stat__label">AU total visitor spend forecast for 2025, up from A$180.6bn in 2024</p>
+            <p class="stat__source">Source: <a href="https://www.destinationnsw.com.au/newsroom/tra-releases-tourism-forecast-for-2025-2030" target="_blank" rel="noopener noreferrer">Destination NSW / TRA</a></p>
+          </div>
+          <div class="stat reveal">
+            <div class="stat__value">A$14.5bn</div>
+            <p class="stat__label">Education visitors segment — recurring, price-sensitive, visa-aware flyers</p>
+            <p class="stat__source">Source: <a href="https://www.youtube.com/watch?v=dSJN8iLa1xg" target="_blank" rel="noopener noreferrer">Tourism Australia benchmark</a></p>
+          </div>
+          <div class="stat reveal">
+            <div class="stat__value">~1.9m</div>
+            <p class="stat__label">AU outbound short-term resident trips per month — Asia dominates growth</p>
+            <p class="stat__source">Source: <a href="https://www.abs.gov.au/statistics/industry/tourism-and-transport/overseas-arrivals-and-departures-australia/latest-release" target="_blank" rel="noopener noreferrer">ABS Overseas Arrivals &amp; Departures</a></p>
+          </div>
+          <div class="stat reveal">
+            <div class="stat__value">US$1.32tn</div>
+            <p class="stat__label">Global OTA market by 2033, from US$663.7bn in 2025</p>
+            <p class="stat__source">Source: <a href="https://www.teacode.io/blog/reducing-ota-dependence-in-hospitality" target="_blank" rel="noopener noreferrer">TeaCode</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-head text-center center" style="flex-direction:column;align-items:center">
+          <span class="eyebrow">Pricing</span>
+          <h2 class="section-title">Start free. Earn perks as you verify.</h2>
+          <p class="section-intro">Routebird is free to search and join. Paid tiers come later — pricing below is indicative and marked honestly as we finalise launch.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="plan reveal">
+            <h3 class="plan__name">Early Access</h3>
+            <div class="plan__price">A$0<small> / join</small></div>
+            <p class="plan__desc">Join the waitlist today. Be first when visa-aware search goes live on the AU → Asia corridors.</p>
+            <ul class="plan__features">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Waitlist + deal-alert newsletter</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Early access to MVP launch</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Founding-member pricing lock</li>
+            </ul>
+            <a href="#waitlist" class="btn btn--primary plan__cta">Join the waitlist</a>
+          </article>
+
+          <article class="plan plan--featured reveal">
+            <span class="plan__badge">For students</span>
+            <h3 class="plan__name">Student</h3>
+            <div class="plan__price">A$0<small> / with .edu verify</small></div>
+            <p class="plan__desc">Free membership with student-verified perks. Verify with a recognised .edu address or student ID.</p>
+            <span class="plan__soon">Coming soon</span>
+            <ul class="plan__features">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Everything in Early Access</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Member fares + baggage credits</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Interest-free pay-later on term-break trips</li>
+              <li class="muted"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /></svg> Priority support (roadmap)</li>
+            </ul>
+            <a href="#waitlist" class="btn btn--ghost plan__cta">Reserve a student spot</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3 class="plan__name">Premium</h3>
+            <div class="plan__price">TBD<small> / soon</small></div>
+            <p class="plan__desc">For frequent flyers and power users — concierge routing, price alerts, and itinerary tools as the platform expands.</p>
+            <span class="plan__soon">Coming soon</span>
+            <ul class="plan__features">
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Multi-city &amp; itinerary planning</li>
+              <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg> Price-drop alerts &amp; fare holds</li>
+              <li class="muted"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /></svg> Concierge re-routing (roadmap)</li>
+            </ul>
+            <a href="#waitlist" class="btn btn--ghost plan__cta">Get notified</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head text-center center" style="flex-direction:column;align-items:center">
+          <span class="eyebrow">FAQ</span>
+          <h2 class="section-title">Questions, answered straight</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq reveal">
+            <summary class="faq__q">
+              What does "visa-aware search" actually mean?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">You enter your passport once. Before any fare is shown, Routebird screens it for two things: whether you're eligible to <em>enter</em> the destination, and whether you'd need a transit visa for any layover city. Fares you can't legally fly are filtered or clearly flagged with the transit-visa requirement — so the cheapest option you see is always one you can actually board.</div>
+          </details>
+
+          <details class="faq reveal">
+            <summary class="faq__q">
+              Which passports do you support at launch?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">Launch focus is the corridors our community flies most: Indian, Chinese, Vietnamese, Filipino, and Nepalese passports on Australia → India / China / South-East Asia routes. We're adding more passport profiles and corridors each release.</div>
+          </details>
+
+          <details class="faq reveal">
+            <summary class="faq__q">
+              Is Routebird a real booking platform or just a search engine?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">A real OTA. We issue live flight tickets via Duffel (merchant of record, so we don't need an IATA number to start) and attach hotels, insurance, and eSIM through affiliate supply. You book and pay on Routebird — not redirected off to someone else's checkout.</div>
+          </details>
+
+          <details class="faq reveal">
+            <summary class="faq__q">
+              When are you launching?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">We're in early access now. The waitlist gets the first invites to the MVP — visa-aware flights plus hotel attach on the AU → Asia corridors — ahead of public launch. Join below and we'll be in touch.</div>
+          </details>
+
+          <details class="faq reveal">
+            <summary class="faq__q">
+              How are prices "all-in"?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">Every fare shown includes taxes, airline fees, and our card-surcharge estimate — the number you see is what you pay. Routebird earns a transparent convenience fee and affiliate commission, not hidden markups. This aligns with Australian Consumer Law expectations on misleading pricing.</div>
+          </details>
+
+          <details class="faq reveal">
+            <summary class="faq__q">
+              Is Routebird a licensed travel agent?
+              <svg class="faq__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14" /></svg>
+            </summary>
+            <div class="faq__a">Australia has had no mandatory travel-agent licence since 2014. ATAS accreditation is voluntary — Routebird plans to pursue it for added credibility as we scale. We operate under the Australian Consumer Law and register for GST once turnover exceeds A$75k. See the footer for the full picture.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="section final-cta" id="waitlist">
+      <div class="container">
+        <div class="final-cta__inner">
+          <h2 class="final-cta__title">Be first to fly smarter</h2>
+          <p class="final-cta__sub">Join the waitlist for early access to visa-aware cheapest fares on the India · China · SEA corridors. No spam — just launch invites and the best fare drops.</p>
+
+          <form class="waitlist" id="waitlist-final" novalidate>
+            <div class="waitlist__field" data-field>
+              <input type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@email.com" aria-label="Email address" required />
+              <button type="submit" class="waitlist__submit">
+                Join the waitlist
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+              </button>
+            </div>
+            <p class="waitlist__msg" data-msg aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="brand" aria-label="Routebird home">
+            <svg class="brand__mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3.5 23c6-1.2 10.5-4.5 14-10 1.4-2.2 2.8-3.6 4.6-3.6" />
+              <path d="M17 9.4 22 5.5 20.4 11" />
+              <circle cx="22" cy="5.8" r="1.2" fill="currentColor" stroke="none" />
+              <path d="M3.5 23l3-1.6M9 23l3-1.6M14.5 23l3-1.6" opacity="0.45" />
+            </svg>
+            Routebird
+          </a>
+          <p class="footer__tag">Visa-aware cheapest flights for Australia's international students &amp; migrants. Expanding to a full Trip.com-style OTA — one corridor at a time.</p>
+          <span class="footer__loc">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+            Brisbane, Australia
+          </span>
+        </div>
+
+        <div class="footer__col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#waitlist">Join the waitlist</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#problem">Why Routebird</a></li>
+            <li><a href="#market">Market</a></li>
+            <li><a href="mailto:hello@routebird.app">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__small">
+          Routebird is a pre-launch travel booking platform. Australia has had no mandatory travel-agent licence since 2014; ATAS accreditation is voluntary and planned as we scale. We operate under the Australian Consumer Law (ACL) — transparent all-in pricing is core to how we work. GST registration applies once turnover exceeds A$75k. IATA is not legally required for our launch model.
+        </p>
+        <div class="footer__social">
+          <a href="#" aria-label="Routebird on X / Twitter" title="X">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+          </a>
+          <a href="#" aria-label="Routebird on Instagram" title="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><path d="M17.5 6.5h.01" /></svg>
+          </a>
+          <a href="#" aria-label="Routebird on LinkedIn" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" /></svg>
+          </a>
+          <a href="mailto:hello@routebird.app" aria-label="Email Routebird" title="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" /></svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__small" style="margin-top:1rem">© 2026 Routebird. Founder: Ibrahim Rasras. Built in Brisbane, AU.</p>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>

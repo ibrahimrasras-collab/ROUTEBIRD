@@ -1,0 +1,203 @@
+﻿{
+  "metadata": {
+    "title": "Routebird — Visa-aware flights for Australia's students & migrants",
+    "description": "Find the cheapest visa-eligible fares on Australia to India, China, SEA corridors."
+  },
+  "nav": {
+    "how": "How it works",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "waitlist": "Join the waitlist",
+    "search": "Search flights",
+    "passport": "My passport"
+  },
+  "theme": { "toggle": "Switch theme" },
+  "hero": {
+    "pill": "Now in early access - Brisbane-built",
+    "title": "Visa-aware flights for Australia's {em}students & migrants{/em}",
+    "sub": "Routebird surfaces the cheapest fares your passport can actually fly on - across the India, China & South-East Asia corridors. No transit-visa surprises. No hidden fees.",
+    "trust": ["Transparent all-in pricing", "WeChat Pay . Alipay . UPI", "Built for the India . China . SEA corridors"],
+    "waitlist.placeholder": "you@email.com",
+    "waitlist.submit": "Join the waitlist",
+    "waitlist.success": "You're on the waitlist - watch your inbox for launch invites.",
+    "waitlist.error.required": "Please enter your email to join the waitlist.",
+    "waitlist.error.invalid": "Please enter a valid email address.",
+    "waitlist.error.duplicate": "You're already on the list - we'll be in touch at launch."
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "Booking a flight home shouldn't feel like a gamble",
+    "intro": "Today's OTAs were built for leisure tourists with Western passports. For Australia's international students and recent migrants, the same booking flow hides costs, risks, and dead ends.",
+    "cards": [
+      { "title": "Visa anxiety", "body": "A cheaper fare through a transit city can mean a visa you don't have. No major OTA warns you before you book - you find out at the gate." },
+      { "title": "Opaque fees", "body": "The headline price balloons at checkout with booking fees, card surcharges, and FX margin. You commit before you ever see the real total." },
+      { "title": "Thin Asia inventory", "body": "Incumbents optimise for AU domestic and Europe. Asia-Pacific carriers, transit combinations, and home-city routes are an afterthought." },
+      { "title": "No student deals", "body": "No .edu verification, no pay-later, no understanding of term-break seasonality. Students fly 1-3x a year and get treated like everyone else." }
+    ]
+  },
+  "features": {
+    "eyebrow": "What Routebird does",
+    "title": "A booking flow that actually knows your passport",
+    "intro": "Every feature is built for the Australia to Asia corridor - not retrofitted from a Western leisure template.",
+    "items": [
+      { "title": "Visa-aware search", "body": "Enter your passport once. Every fare is screened for transit-visa risk and destination eligibility before it's shown - so the cheapest option is always one you can actually fly.", "tag": "The core differentiator" },
+      { "title": "Transparent all-in pricing", "body": "The price you see is the price you pay - taxes, fees, and card surcharge included, up front. ACL-aligned, no checkout-stage surprises.", "tag": "No surprises at checkout" },
+      { "title": "Bilingual + local payments", "body": "Interface in English, Hindi, Mandarin and Vietnamese. Pay your way - WeChat Pay, Alipay, UPI, and Australian cards.", "tag": "English / Hindi / Zhongwen / Tieng Viet" },
+      { "title": "Student discounts + pay-later", "body": "Verify with a .edu email or student ID for member fares, baggage credits, and interest-free pay-later on term-break trips.", "tag": ".edu verified" },
+      { "title": "Bundled insurance & eSIM", "body": "Add travel insurance and a destination eSIM in the same checkout - no third-party detours. One itinerary, one support contact, one price.", "tag": "All-in-one trip" },
+      { "title": "Community-native deals", "body": "Bilingual deal-alert newsletter plus WhatsApp / WeChat / Discord communities surface fares the moment they drop - the low-CAC model, rebuilt for these corridors.", "tag": "Fares first, by community" }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Three steps to a fare you can actually use",
+    "intro": "From search to boarding in minutes - no spreadsheets, no embassy guesswork, no checkout surprises.",
+    "steps": [
+      { "title": "Search with your passport", "body": "Tell us where you're flying and which passport you hold. We pull live fares across the AU to India / China / SEA corridors." },
+      { "title": "See visa-eligible cheapest fares", "body": "Every result is screened for transit-visa risk and destination eligibility. Each fare carries an all-in price." },
+      { "title": "Book + add insurance & eSIM", "body": "Confirm with WeChat Pay, Alipay, UPI or your card. Bundle travel insurance and a destination eSIM in the same checkout." }
+    ]
+  },
+  "stats": {
+    "eyebrow": "Why now",
+    "title": "A market built on recurring, price-sensitive, visa-aware flyers",
+    "intro": "Australia's visitor economy is at record scale, with education visitors and Asia outbound growth concentrated exactly where Routebird is focused.",
+    "items": [
+      { "value": "A$191.6bn", "label": "AU total visitor spend forecast for 2025" },
+      { "value": "A$14.5bn", "label": "Education visitors segment - recurring, price-sensitive, visa-aware flyers" },
+      { "value": "~1.9m", "label": "AU outbound short-term resident trips per month - Asia dominates growth" },
+      { "value": "US$1.32tn", "label": "Global OTA market by 2033" }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Start free. Earn perks as you verify.",
+    "intro": "Routebird is free to search and join. Paid tiers come later - pricing below is indicative.",
+    "plans": [
+      { "name": "Early Access", "price": "A$0", "priceUnit": "/ join", "desc": "Join the waitlist today. Be first when visa-aware search goes live on the AU to Asia corridors.", "cta": "Join the waitlist", "features": ["Waitlist + deal-alert newsletter", "Early access to MVP launch", "Founding-member pricing lock"] },
+      { "name": "Student", "price": "A$0", "priceUnit": "/ with .edu verify", "desc": "Free membership with student-verified perks.", "cta": "Reserve a student spot", "badge": "For students", "soon": "Coming soon", "features": ["Everything in Early Access", "Member fares + baggage credits", "Interest-free pay-later on term-break trips", "Priority support (roadmap)"] },
+      { "name": "Premium", "price": "TBD", "priceUnit": "/ soon", "desc": "For frequent flyers and power users - concierge routing, price alerts, and itinerary tools.", "cta": "Get notified", "soon": "Coming soon", "features": ["Multi-city & itinerary planning", "Price-drop alerts & fare holds", "Concierge re-routing (roadmap)"] }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered straight",
+    "items": [
+      { "q": "What does \"visa-aware search\" actually mean?", "a": "You enter your passport once. Before any fare is shown, Routebird screens it for whether you're eligible to enter the destination, and whether you'd need a transit visa for any layover city. Fares you can't legally fly are filtered or clearly flagged." },
+      { "q": "Which passports do you support at launch?", "a": "Launch focus is the corridors our community flies most: Indian, Chinese, Vietnamese, Filipino, and Nepalese passports on Australia to India / China / SEA routes." },
+      { "q": "Is Routebird a real booking platform or just a search engine?", "a": "A real OTA. We issue live flight tickets via Duffel (merchant of record, so we don't need an IATA number to start) and attach hotels, insurance, and eSIM through affiliate supply." },
+      { "q": "When are you launching?", "a": "We're in early access now. The waitlist gets the first invites to the MVP ahead of public launch." },
+      { "q": "How are prices \"all-in\"?", "a": "Every fare shown includes taxes, airline fees, and our card-surcharge estimate - the number you see is what you pay." },
+      { "q": "Is Routebird a licensed travel agent?", "a": "Australia has had no mandatory travel-agent licence since 2014. ATAS accreditation is voluntary and planned as we scale. We operate under the Australian Consumer Law." }
+    ]
+  },
+  "finalCta": {
+    "title": "Be first to fly smarter",
+    "sub": "Join the waitlist for early access to visa-aware cheapest fares on the India . China . SEA corridors. No spam - just launch invites and the best fare drops."
+  },
+  "footer": {
+    "tag": "Visa-aware cheapest flights for Australia's international students & migrants. Expanding to a full Trip.com-style OTA - one corridor at a time.",
+    "loc": "Brisbane, Australia",
+    "cols": {
+      "product": {
+        "title": "Product",
+        "links": [
+          { "label": "How it works", "href": "/#how" },
+          { "label": "Features", "href": "/#features" },
+          { "label": "Pricing", "href": "/#pricing" },
+          { "label": "Join the waitlist", "href": "/#waitlist" }
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          { "label": "FAQ", "href": "/#faq" },
+          { "label": "Why Routebird", "href": "/#problem" },
+          { "label": "Market", "href": "/#market" },
+          { "label": "Contact", "href": "mailto:hello@routebird.app" }
+        ]
+      }
+    },
+    "small": "Routebird is a pre-launch travel booking platform. Australia has had no mandatory travel-agent licence since 2014; ATAS accreditation is voluntary and planned as we scale. We operate under the Australian Consumer Law (ACL).",
+    "copyright": "© 2026 Routebird. Founder: Ibrahim Rasras. Built in Brisbane, AU."
+  },
+  "passport": {
+    "title": "Add your passport",
+    "intro": "We screen every fare against your passport before it's shown. Your MRZ data is encrypted and never leaves Routebird except to check visa eligibility.",
+    "fields": {
+      "passportNumber": "Passport number",
+      "nameInPassport": "Name exactly as in passport",
+      "dateOfBirth": "Date of birth",
+      "gender": "Gender",
+      "nationality": "Nationality",
+      "issueDate": "Issue date",
+      "expiryDate": "Expiry date",
+      "issuingAuthority": "Issuing authority",
+      "placeOfIssue": "Place of issue"
+    },
+    "validity": {
+      "warning": "Your passport expires in less than 6 months. Many countries require >=6 months validity on arrival - please renew before booking.",
+      "ok": "Passport validity is fine for travel."
+    },
+    "submit": "Save passport & continue",
+    "saved": "Passport saved. Visa screening is now active for every search."
+  },
+  "search": {
+    "title": "Search flights",
+    "sub": "Enter your route. We'll show only fares your passport can actually board.",
+    "origin": "From",
+    "destination": "To",
+    "depart": "Departure window",
+    "tripType": "Trip type",
+    "oneWay": "One way",
+    "roundTrip": "Round trip",
+    "passengers": "Passengers",
+    "adults": "Adults",
+    "children": "Children",
+    "infants": "Infants",
+    "submit": "Search",
+    "flexibility": "+/- 3 days",
+    "cheapestWeek": "Cheapest departure this week",
+    "noResults": "No visa-eligible fares found for this route yet. Try widening your dates or check back soon."
+  },
+  "results": {
+    "title": "Visa-eligible fares",
+    "sub": "Cheapest fares your passport can actually fly on.",
+    "sort": "Sort",
+    "sort.cheapest": "Cheapest",
+    "sort.fastest": "Fastest",
+    "sort.earliest": "Earliest departure",
+    "allIn": "All-in price",
+    "perPassenger": "per passenger",
+    "select": "Select fare",
+    "transit": "Transit",
+    "nonstop": "Nonstop",
+    "duration": "Duration",
+    "visaOk": "Visa-OK",
+    "visaTransit": "Transit visa required",
+    "visaBlocked": "Not visa-eligible for your passport - hidden",
+    "departing": "Departing",
+    "arriving": "Arriving",
+    "carrier": "Carrier"
+  },
+  "book": {
+    "title": "Confirm & book",
+    "sub": "Review your itinerary and passenger details. You won't be charged until you confirm.",
+    "flight": "Flight",
+    "passenger": "Passenger details",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "payment": "Payment",
+    "payNow": "Pay now (secure, mock for v1)",
+    "totalDue": "Total due today",
+    "allIn": "incl. taxes, fees, surcharge",
+    "confirm": "Confirm booking",
+    "confirmed.title": "Booking confirmed",
+    "confirmed.sub": "Your itinerary has been provisionally reserved. We'll email {email} with ticket issuance details shortly.",
+    "confirmed.reference": "Reference",
+    "confirmed.back": "Back to search"
+  }
+}

@@ -1,0 +1,483 @@
+﻿{
+  "version": "2025-07",
+  "lastUpdated": "2025-07-21",
+  "rules": [
+    {
+      "passport": "IN",
+      "destination": "DEL",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Indian nationals need a visa or e-visa to enter India (returning home). Valid visa assumed if departing from AU."
+    },
+    {
+      "passport": "IN",
+      "destination": "BOM",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Same as DEL — home country, visa assumed for AU departures."
+    },
+    {
+      "passport": "IN",
+      "destination": "BLR",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Same as DEL — home country."
+    },
+    {
+      "passport": "IN",
+      "destination": "MAA",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Same as DEL — home country."
+    },
+    {
+      "passport": "IN",
+      "destination": "CCU",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Same as DEL — home country."
+    },
+    {
+      "passport": "IN",
+      "destination": "HYD",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Same as DEL — home country."
+    },
+    {
+      "passport": "IN",
+      "destination": "KUL",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days on arrival for Indian nationals."
+    },
+    {
+      "passport": "IN",
+      "destination": "SIN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days. SG Arrival Card required."
+    },
+    {
+      "passport": "IN",
+      "destination": "BKK",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days on arrival for Indian nationals (until Nov 2025, extended periodically)."
+    },
+    {
+      "passport": "IN",
+      "destination": "HKT",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Same as BKK — Thai visa-free applies."
+    },
+    {
+      "passport": "IN",
+      "destination": "SGN",
+      "visaFreeDays": 45,
+      "eVisa": true,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 45 days (single entry) or e-visa for longer stays."
+    },
+    {
+      "passport": "IN",
+      "destination": "HAN",
+      "visaFreeDays": 45,
+      "eVisa": true,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Same as SGN — Vietnamese visa-free 45 days."
+    },
+    {
+      "passport": "IN",
+      "destination": "MNL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 12,
+      "transitVisaRequired": false,
+      "notes": "Visa required. Indians can get visa on arrival for 30 days if holding valid AU/US/UK/SG/JP visa."
+    },
+    {
+      "passport": "IN",
+      "destination": "KTM",
+      "visaFreeDays": 90,
+      "eVisa": true,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 90 days on arrival for Indian nationals."
+    },
+    {
+      "passport": "IN",
+      "destination": "CGK",
+      "visaFreeDays": 30,
+      "eVisa": true,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days. Free visa on arrival."
+    },
+    {
+      "passport": "IN",
+      "destination": "TPE",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Transit without visa OK for 12h. For entry, visa required."
+    },
+    {
+      "passport": "IN",
+      "destination": "HKG",
+      "visaFreeDays": 14,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 14 days for Indian nationals."
+    },
+    {
+      "passport": "IN",
+      "destination": "PVG",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "China requires visa. 24h transit without visa (TWOV) allowed in some cities. Check eligibility."
+    },
+    {
+      "passport": "IN",
+      "destination": "PEK",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "China requires visa. 24h TWOV may apply."
+    },
+    {
+      "passport": "IN",
+      "destination": "ICN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "K-ETA required (electronic travel auth). Visa-free 90 days with K-ETA."
+    },
+    {
+      "passport": "IN",
+      "destination": "NRT",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Japan transit without visa for 72h under shore excursion. Visa required for entry."
+    },
+    {
+      "passport": "IN",
+      "destination": "KIX",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Same as NRT."
+    },
+    {
+      "passport": "IN",
+      "destination": "MEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "Transit visa (subclass 771) required for Indian nationals transiting through AU."
+    },
+    {
+      "passport": "IN",
+      "destination": "SYD",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "Same as MEL — AU transit visa required."
+    },
+    {
+      "passport": "IN",
+      "destination": "BNE",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "Same as MEL — AU transit visa required."
+    },
+    {
+      "passport": "CN",
+      "destination": "DEL",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Chinese nationals need visa/e-visa for India."
+    },
+    {
+      "passport": "CN",
+      "destination": "KUL",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days for Chinese nationals."
+    },
+    {
+      "passport": "CN",
+      "destination": "SIN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days for Chinese nationals (since Feb 2024)."
+    },
+    {
+      "passport": "CN",
+      "destination": "BKK",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days for Chinese nationals (permanent arrangement)."
+    },
+    {
+      "passport": "CN",
+      "destination": "SGN",
+      "visaFreeDays": 45,
+      "eVisa": true,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 24,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 45 days for Chinese nationals."
+    },
+    {
+      "passport": "CN",
+      "destination": "HKG",
+      "visaFreeDays": 7,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 7 days for Chinese nationals."
+    },
+    {
+      "passport": "CN",
+      "destination": "MEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "AU transit visa required for Chinese nationals."
+    },
+    {
+      "passport": "VN",
+      "destination": "DEL",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Vietnamese nationals need visa/e-visa for India."
+    },
+    {
+      "passport": "VN",
+      "destination": "KUL",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "VN",
+      "destination": "SIN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "VN",
+      "destination": "BKK",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "VN",
+      "destination": "MEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "AU transit visa required for Vietnamese nationals."
+    },
+    {
+      "passport": "PH",
+      "destination": "DEL",
+      "visaFreeDays": null,
+      "eVisa": true,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Filipino nationals need visa/e-visa for India."
+    },
+    {
+      "passport": "PH",
+      "destination": "KUL",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "PH",
+      "destination": "SIN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "PH",
+      "destination": "BKK",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "PH",
+      "destination": "MEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "AU transit visa required for Filipino nationals."
+    },
+    {
+      "passport": "NP",
+      "destination": "DEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": false,
+      "notes": "Nepalese nationals need visa for India (but visa on arrival available)."
+    },
+    {
+      "passport": "NP",
+      "destination": "KUL",
+      "visaFreeDays": 90,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 120,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 90 days for Nepalese nationals."
+    },
+    {
+      "passport": "NP",
+      "destination": "SIN",
+      "visaFreeDays": 30,
+      "eVisa": false,
+      "transitWithoutVisa": true,
+      "transitMaxHours": 48,
+      "transitVisaRequired": false,
+      "notes": "Visa-free 30 days."
+    },
+    {
+      "passport": "NP",
+      "destination": "MEL",
+      "visaFreeDays": null,
+      "eVisa": false,
+      "transitWithoutVisa": false,
+      "transitMaxHours": 0,
+      "transitVisaRequired": true,
+      "notes": "AU transit visa required for Nepalese nationals."
+    }
+  ],
+  "transitRules": {
+    "KUL": { "visaFreeTransit": true, "maxHours": 120, "notes": "KLIA/KLIA2 — most Indian passport transit OK" },
+    "SIN": { "visaFreeTransit": true, "maxHours": 48, "notes": "Changi — transit without visa for most nationalities" },
+    "BKK": { "visaFreeTransit": true, "maxHours": 120, "notes": "Suvarnabhumi/Don Mueang — transit OK" },
+    "HKG": { "visaFreeTransit": true, "maxHours": 48, "notes": "Transit without visa" },
+    "TPE": { "visaFreeTransit": true, "maxHours": 24, "notes": "Taoyuan — transit without visa for 24h" },
+    "SGN": { "visaFreeTransit": true, "maxHours": 24, "notes": "Tan Son Nhat — transit OK" },
+    "CGK": { "visaFreeTransit": true, "maxHours": 24, "notes": "Soekarno-Hatta — transit OK" },
+    "PVG": { "visaFreeTransit": true, "maxHours": 24, "notes": "Shanghai — 24h TWOV for some nationalities" },
+    "PEK": { "visaFreeTransit": true, "maxHours": 24, "notes": "Beijing — 24h TWOV for some nationalities" },
+    "ICN": { "visaFreeTransit": true, "maxHours": 24, "notes": "Incheon — transit without visa" },
+    "NRT": { "visaFreeTransit": true, "maxHours": 72, "notes": "Narita — shore excursion transit" },
+    "KIX": { "visaFreeTransit": true, "maxHours": 72, "notes": "Kansai — shore excursion transit" },
+    "MEL": { "visaFreeTransit": false, "maxHours": 0, "notes": "AU requires transit visa (771) for most Asian nationalities" },
+    "SYD": { "visaFreeTransit": false, "maxHours": 0, "notes": "Same as MEL" },
+    "BNE": { "visaFreeTransit": false, "maxHours": 0, "notes": "Same as MEL" }
+  }
+}
