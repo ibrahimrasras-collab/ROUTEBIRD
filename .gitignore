@@ -1,4 +1,5 @@
 # Dependencies
+
 node_modules/
 
 # Next.js build artifacts
@@ -32,3 +33,5 @@ Routebird.zip
 Routebird Pitch Deck.pptx
 Routebird Pitch Deck (1).pptx
 Routebird GTM Plan.docx
+
+OPENROUTER-KEY-CLAUDE

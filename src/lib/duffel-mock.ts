@@ -89,12 +89,21 @@ function makeItinerary(
   segments: FlightSegment[],
   baseFare: number,
 ): Itinerary {
-  const totalDuration =
-    segments.length === 1
-      ? segments[0].durationMinutes
-      : (new Date(segments[segments.length - 1].arrivalISO).getTime() -
-          new Date(segments[0].departureISO).getTime()) /
-        60000;
+  if (segments.length === 0) {
+    throw new Error("Itinerary must have at least one segment");
+  }
+  const firstDep = new Date(segments[0].departureISO).getTime();
+  const lastArr = new Date(segments[segments.length - 1].arrivalISO).getTime();
+  let totalDuration = lastArr - firstDep;
+  // Handle overnight flights: if arrival is before departure, add 24h
+  if (totalDuration < 0) {
+    totalDuration += 24 * 60 * 60 * 1000;
+  }
+  totalDuration /= 60000;
+  // Fallback: if still not positive, sum segment durations
+  if (totalDuration <= 0) {
+    totalDuration = segments.reduce((sum, s) => sum + s.durationMinutes, 0);
+  }
 
   const taxes = Math.round(baseFare * 0.12);
   const surcharge = Math.round(baseFare * 0.03);
